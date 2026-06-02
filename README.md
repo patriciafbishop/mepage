@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Patricia Bishop</title>
+
 </head>
 <body>
 
