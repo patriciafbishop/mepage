@@ -53,10 +53,10 @@
     }
 
     main {
-      min-height: 100vh;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
     .panel {
       position: relative;
@@ -86,7 +86,7 @@
     .panel-title {
       position: relative;
       z-index: 2;
-      font-size: clamp(42px, 6vw, 82px);
+      font-size: clamp(32px, 4vw, 58px);
       font-weight: normal;
       line-height: 0.95;
       text-align: center;
@@ -119,13 +119,14 @@
 }
 
     @media (max-width: 850px) {
-      main {
-        grid-template-columns: 1fr;
-      }
+        main {
+    grid-template-columns: 1fr;
+  }
 
-      .panel {
-        min-height: 50vh;
-      }
+  .panel {
+    min-height: 50vh;
+  }
+}
 
       .top {
         padding: 22px;
